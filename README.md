@@ -1,0 +1,1 @@
+This is the hard version of the first project of HTML and CSS from The Odin Project's Web Development 101 course. I have already done the easy version of this project and I'm very pleased with the result. This certainly looks tougher but I think I'll manage. Hopefully I'm proud of the end result
