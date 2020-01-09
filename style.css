@@ -1,0 +1,20 @@
+.logo {
+    height: 31px;
+    margin: 28px 0 0 20px;
+    position: fixed;
+}
+
+.searchbar {
+    margin-left: 145px;
+    margin-top: 23px;
+    position: fixed;
+    padding-left: 20px;
+    padding-right: 45px;
+    border-radius: 30px;
+    border: 1px solid #dfe1e5;
+    height: 40px;
+    width: 575px;
+    background: url(https://jwern.github.io/google-homepage/images/magnifying-glass-lighter.png) no-repeat 600px center;
+    background-size: 20px;
+    font-size: 15px;
+}
