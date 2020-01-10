@@ -1,20 +1,74 @@
+#top-header {
+    position: absolute;
+}
+
 .logo {
     height: 31px;
     margin: 28px 0 0 20px;
-    position: fixed;
+    position: absolute;
 }
 
 .searchbar {
     margin-left: 145px;
-    margin-top: 23px;
-    position: fixed;
+    margin-top: 21px;
+    position: absolute;
     padding-left: 20px;
     padding-right: 45px;
     border-radius: 30px;
     border: 1px solid #dfe1e5;
-    height: 40px;
+    height: 42px;
     width: 575px;
     background: url(https://jwern.github.io/google-homepage/images/magnifying-glass-lighter.png) no-repeat 600px center;
     background-size: 20px;
     font-size: 15px;
+}
+
+.login {
+    position: fixed;
+    right: 48px;
+    top: 27px;
+    background: #1a73e8;
+    color: #fff;
+    height: 35px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 0px 23px;
+    font-size: 14px;
+}
+
+#bottom-header {
+    color: #5f6368;
+    border-bottom: 2px solid black;
+    padding: 55px;
+}
+
+li {
+    display: inline
+}
+
+.left-list {
+    position: absolute;
+    top: 90px;
+    left: 169px;
+}
+
+.left-item {
+    padding-right: 35px;
+    font-size: 13px;
+}
+
+.selected-item {
+    color: #1A73E8;
+    border-bottom: 3px solid #1A73E8;
+}
+
+.right-list {
+    position: absolute;
+    top: 90px;
+    left: 658px;
+}
+
+.right-item {
+    padding-right: 35px;
+    font-size: 13px;
 }
