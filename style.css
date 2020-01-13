@@ -136,10 +136,18 @@ p {
     padding-top: 16px;
     padding-bottom: 4px;
     padding-left: 28px;
+    width: 700px;
 }
 
 .secondary-results {
     display: inline;
+}
+
+.secondary-result {
+    width: 205px;
+    margin-right: 100px;
+    display: inline-block;
+    height: 70px;
 }
 
 .secondary-name {
@@ -151,6 +159,44 @@ p {
     display: inline-block;
 }
 
+.secondary-description {
+    margin-top: 0;
+}
+
 .result {
     margin-top: 27px;
+}
+
+.rectangle {
+    margin: 20px 0 0 -16px;
+    border: 1px solid #dfe1e5;
+    width: 606px;
+    border-radius: 8px;
+}
+
+h3 {
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-top: 16px;
+    width: 606px;
+    font-size: 16px;
+    padding-left: 16px;
+}
+
+.steps {
+    list-style: decimal;
+    margin-left: 18px;
+    padding-left: 16px;
+}
+
+.step {
+    display: list-item;
+    margin-bottom: 4px;
+    height: 22px;
+}
+
+.rectangle-logo {
+    position: relative;
+    left: 468px;
+    bottom: 256px;
 }
