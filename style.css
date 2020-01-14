@@ -24,8 +24,8 @@
 }
 
 .login {
-    position: fixed;
-    right: 48px;
+    position: relative;
+    left: 1140px;
     top: 27px;
     background: #1a73e8;
     color: #fff;
@@ -82,7 +82,7 @@ body {
 
 #content {
     margin-left: 167px;
-    margin-right: 500px;
+    margin-right: 501px;
 }
 
 .number-results {
@@ -164,20 +164,21 @@ p {
 }
 
 .result {
-    margin-top: 27px;
+    margin-top: 30px;
 }
 
 .rectangle {
     margin: 20px 0 0 -16px;
     border: 1px solid #dfe1e5;
-    width: 606px;
+    width: 630px;
     border-radius: 8px;
+    height: 376.5px;
 }
 
 h3 {
     font-weight: bold;
-    margin-bottom: 15px;
-    margin-top: 16px;
+    margin-bottom: 20px;
+    margin-top: 20px;
     width: 606px;
     font-size: 16px;
     padding-left: 16px;
@@ -197,6 +198,165 @@ h3 {
 
 .rectangle-logo {
     position: relative;
-    left: 468px;
-    bottom: 256px;
+    left: 492px;
+    bottom: 264px;
+    border-top-right-radius: 8px;
+}
+
+.rectangle-name {
+    font-size: 14px;
+    position: absolute;
+    margin-left: -103px;
+}
+
+.rectangle-name-date {
+    position: absolute;
+    margin-top: -161px;
+    margin-left: 120px;
+}
+
+.rectangle-big-name {
+    position: absolute;
+    margin-top: 45px;
+    margin-left: -123px;
+}
+
+.rectangle-link {
+    position: absolute;
+    margin-top: -88px;
+    margin-left: 15px;
+}
+
+.table-area {
+    margin-top: 35px;
+    margin-left: -15px;
+}
+
+.frequent-questions {
+    border: 1px solid #dfe1e5;
+    border-radius: 8px;
+    border-collapse: separate !important;
+    width: 632px;
+}
+
+.table-header {
+    padding: 9px 16px;
+    font-size: 20px;
+    line-height: 1.3;
+}
+
+.cell {
+    padding: 9px 40px 9px 16px; 
+    width: 583px;
+    border-top: 1px solid #dfe1e5;
+    line-height: 1.57;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.table-dropdown {
+    position: absolute;
+    height: 16px;
+    margin-top: 6px;
+}
+
+.feedback {
+    margin-left: 540px;
+    font-style: italic;
+    font-size: 12px;
+    cursor: pointer;
+    color: #70757a;
+    margin-top: 0
+}
+
+.feedback:hover {
+    text-decoration: underline;
+}
+
+.related-search {
+    margin-top: 30px;
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 1.3;
+}
+
+.table-of-searches {
+    margin-top: 20px;
+}
+
+.search-cell {
+    color: #1a0dab;
+    cursor: pointer;
+    width: 286.317px;
+    padding: 3px 32px 3px 0;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.search-cell:hover {
+    text-decoration: underline;
+}
+
+.bottom-logo {
+    margin-top: 30px;
+    margin-left: 125px;
+}
+
+.page {
+    margin-left: 170px;
+    font-size: 14px;
+    color: rgba(0,0,0,0.87);
+    display: inline-block;
+    padding-right: 7px;
+}
+
+.pages-available {
+    color: #4285f4;
+    font-size: 14px;
+    cursor: pointer;
+    display: inline-block;
+    padding-right: 8px;
+}
+
+.pages-available:hover {
+    text-decoration: underline;
+}
+
+#footer {
+    background-color: #f2f2f2;
+    margin-top: 30px;
+}
+
+.top-footer {
+    padding: 13px 0 13px 162px;
+    border-top: solid 1px #e4e4e4;
+    bottom: 0;
+    position: relative;
+}
+
+h6 {
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+    display: inline-block;
+}
+
+.bottom-footer-item {
+    color: #5f6368;
+    text-decoration: none;
+    padding-left: 24px;
+    font-size: 14px;
+}
+
+.bottom-footer-item:hover {
+    color: #333
+}
+
+.bottom-footer {
+    bottom: 42px;
+    padding: 13px 0 13px 139px;
+    border-top: solid 1px #e4e4e4;
+    position: relative;
+    bottom: 0;
 }
